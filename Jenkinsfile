@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://github.com/Bala621/Mazeball.git'
+                git 'https://github.com/Bala621/game-project.git'
             }
         }
         stage('Build the Docker image') {
